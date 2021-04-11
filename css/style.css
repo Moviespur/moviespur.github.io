@@ -1,8 +1,21 @@
-h5 {
-    margin-top: 5px;
-    text-align: center;
-}
 img {
-    width: 100%;
+    width: 720px;
     padding-right: 20px;
+}
+h5 {
+    text-align: center;
+    margin-top: 8px;
+    padding-right: 450px;
+}
+
+
+@media screen and (max-width: 600px) {
+    h5 {
+        margin-top: 5px;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        padding-right: 20px;
+    }
 }
